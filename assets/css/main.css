@@ -2534,6 +2534,9 @@ input, select, textarea {
 
 	.work-item {
 		margin: 0 0 2em 0;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
 	}
 
 		.work-item .image {
@@ -2548,7 +2551,8 @@ input, select, textarea {
 		.work-item p {
 			font-size: 0.8em;
 			line-height: 1.5em;
-			margin: 0;
+			margin-bottom: 10px;
+
 		}
 
 /* Header */
@@ -3195,4 +3199,8 @@ input, select, textarea {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.extra-padding{
+	margin-top: 10px;
 }
